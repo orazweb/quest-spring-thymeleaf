@@ -7,10 +7,14 @@
 </head>
 <body>
 <header th:replace="fragments.html :: top">Header TODO</header>
+
+
 <section>
-    <h1 th:text="|Hello ${name}!|">Welcome ${name}</h1>
-    <h3>Your number is $doctornumber</h3>
+    <h1 th:text="|Welcome ${doctor.name} !|">Welcome ${name}</h1>
+    <h3 th:text="|Your number is  ${doctor.number} |">Your number is $doctornumber</h3>
 </section>
+
+
 <footer th:replace="fragments.html :: bottom">Footer TODO</footer>
 </body>
 </html>

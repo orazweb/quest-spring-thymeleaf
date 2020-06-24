@@ -1,6 +1,6 @@
 package com.example.thymeleaf.model;
 
-public class Doctor {
+    public class Doctor {
 
     private int number;
     private String name;
